@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 3;
+}
+header nav {
+  width: 60%;
+  height: auto;
+}
+header nav .navbar-collapse {
+  justify-content: center;
+}
+header nav .navbar-collapse .navbar-nav {
+  gap: 20px;
+}
+header nav .navbar-collapse .navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+header nav .header-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header nav a {
+  color: #000;
+}
+header nav a:hover {
+  color: #717fe0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+}
+main #season {
+  background-image: url(/assets/media/slide-02.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #season h1 {
+  font-size: 70px;
+}
+main #season button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 35px;
+  background-color: #717fe0;
+  color: #fff;
+  transition-duration: 0.5s;
+}
+main #season button:hover {
+  background-color: #000;
+}
+main #banner-sec {
+  width: 100%;
+  height: auto;
+}
+main #banner-sec .banner-sec-cart {
+  width: 100%;
+  height: auto;
+  border: 1px solid gray;
+  position: relative;
+}
+main #banner-sec .banner-sec-cart .banner-sec-item {
+  width: 100%;
+  height: auto;
+}
+main #banner-sec .banner-sec-cart .banner-sec-item img {
+  width: 100%;
+  height: auto;
+}
+main #banner-sec .banner-sec-cart .banner-sec-item .bnr-txt {
+  position: absolute;
+  top: 30px;
+}
+main #product-section {
+  width: 100%;
+}
+main #product-section .search-box {
+  width: 100%;
+}
+main #product-section .search-box input {
+  width: 75%;
+  padding: 10px 30px;
+  border-radius: 35px;
+}
+main #product-section .search-box button {
+  border: none;
+  background-color: red;
+  color: #fff;
+  padding: 10px 35px;
+  border-radius: 35px;
+}
+main #product-section #product {
+  margin-top: 15px;
+}
+main #product-section #product img {
+  width: 100%;
+}
+main #product-section #product2 {
+  margin-top: 15px;
+}
+main #product-section #product2 img {
+  width: 100%;
+}
+main #product-section #product3 {
+  margin-top: 15px;
+}
+main #product-section #product3 img {
+  width: 100%;
+}
+main #product-section .btn-box {
+  margin-top: 10px;
+  width: 100%;
+}
+main #product-section .btn-box .btn-div {
+  width: 25%;
+  margin: auto;
+}
+
+footer {
+  margin-top: 20px;
+  width: 100%;
+  min-height: 120px;
+  background-color: #232323;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+footer .foot-cart span {
+  color: #fff;
+}
